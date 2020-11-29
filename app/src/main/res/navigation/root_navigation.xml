@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.siclo.app.ui.MainFragment"
+        tools:layout="@layout/main_fragment">
+
+        <action
+            android:id="@+id/action_homeFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+
+        <action
+            android:id="@+id/action_homeFragment_to_signUpEmailFragment"
+            app:destination="@id/signUpEmailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.siclo.app.ui.login.view.LoginFragment"
+        tools:layout="@layout/login_fragment">
+
+        <action
+            android:id="@+id/action_loginFragment_to_dashboardFragment"
+            app:destination="@id/dashboardFragment"
+            app:popUpTo="@id/mainFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/signUpEmailFragment"
+        android:name="com.siclo.app.ui.signup.view.SignUpEmailFragment"
+        tools:layout="@layout/sign_up_email_fragment">
+
+        <action
+            android:id="@+id/action_signUpEmailFragment_to_signUpUserFragment"
+            app:destination="@id/signUpUserFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/signUpUserFragment"
+        android:name="com.siclo.app.ui.signup.view.SignUpUserFragment"
+        tools:layout="@layout/sign_up_user_fragment">
+
+        <argument
+            android:name="emailFields"
+            app:argType="com.siclo.app.ui.signup.model.EmailFields" />
+
+        <action
+            android:id="@+id/action_signUpFragment_to_dashboardFragment"
+            app:destination="@id/dashboardFragment"
+            app:popUpTo="@id/signUpEmailFragment"
+            app:popUpToInclusive="true" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/dashboardFragment"
+        android:name="com.siclo.app.ui.dashboard.view.DashboardFragment"
+        tools:layout="@layout/dashboard_fragment">
+
+        <action
+            android:id="@+id/action_dashboardFragment_to_videoFragment"
+            app:destination="@id/videoFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/videoFragment"
+        android:name="com.siclo.app.ui.dashboard.view.DashboardVideoFragment"
+        tools:layout="@layout/dashboard_video_fragment" />
+
+</navigation>

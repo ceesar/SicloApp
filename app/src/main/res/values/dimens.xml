@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="side_margin">24dp</dimen>
+    <dimen name="bottom_margin">32dp</dimen>
+    <dimen name="default_elevation">20dp</dimen>
+</resources>

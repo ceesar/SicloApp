@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">SicloApp</string>
+    <string name="hi">¡Hola!</string>
+    <string name="ready">Listo</string>
+    <string name="next">Siguiente</string>
+    <string name="password">Contraseña</string>
+    <string name="register">Registro</string>
+    <string name="required_data_error">Dato requerido</string>
+
+    <!--  LOGIN  -->
+    <string name="login_welcome">Bienvenido</string>
+    <string name="login">Iniciar sesión</string>
+    <string name="login_check_in">Registrarse</string>
+
+    <!--  LOGIN CREDENTIALS  -->
+    <string name="login_credentials_hello_again">¡Hola \nde nuevo!</string>
+    <string name="login_credentials_enter">Entrar</string>
+    <string name="login_credentials_username">Nombre de usuario o correo</string>
+    <string name="login_credentials_forgotten_password">Olvidé mi contraseña</string>
+
+    <!--  LOGIN SIGN UP EMAIL  -->
+    <string name="login_sign_up_email">Correo electrónico</string>
+    <string name="login_sign_up_email_error">Ingresa un correo valido</string>
+    <string name="login_sign_up_email_password_rule">Tu contraseña debe tener mínimo 6 caracteres, al menos un número y un signo de puntuación.</string>
+    <string name="login_sign_up_email_password_error">Minimo 6 caracteres</string>
+    <string name="login_sign_up_email_repeat_password">Repetir contraseña</string>
+    <string name="login_sign_up_email_repeat_password_error">Las contraseñas no coinciden</string>
+
+    <!--  LOGIN SIGN UP USER -->
+    <string name="login_sign_up_user_tell_us">Cuentanos un poco de ti</string>
+    <string name="login_sign_up_user_first_name">Nombre</string>
+    <string name="login_sign_up_user_last_name">Apellidos</string>
+    <string name="login_sign_up_user_birthday">Fecha de nacimiento(ej. 1992–07–15)</string>
+    <string name="login_sign_up_user_phone">Número de teléfono</string>
+    <string name="login_sign_up_user_phone_length_error">Teléfono a 10 dígitos</string>
+    <string name="login_sign_up_user_lada">Lada</string>
+    <string name="login_sign_up_user_default_lada">+52</string>
+    <string name="login_sign_up_user_weight">Peso</string>
+    <string name="login_sign_up_user_height">Altura</string>
+    <string name="login_sign_up_user_height_max_error">Menor o igual a 3</string>
+
+    <!--  DASHBOARD  -->
+    <string name="dashboard_title">Clases</string>
+    <string name="dashboard_duration">Duración: %d min</string>
+    <string name="dashboard_intensity">Intencidad: %d</string>
+    <string name="dashboard_close">Cerrar</string>
+    <string name="dashboard_join_to_class">Unir</string>
+
+    <!--  DASHBOARD VIDEO  -->
+    <string name="dashboard_video_title">Clase</string>
+    <string name="dashboard_video_waiting">Cargando video…</string>
+    <string name="dashboard_video_play_error">No es posible reproducir el video.</string>
+    <string name="dashboard_video_loading_error">Error al cargar el video.</string>
+
+</resources>
